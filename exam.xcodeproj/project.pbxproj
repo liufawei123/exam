@@ -15,6 +15,9 @@
 		6FCC43DB22598F840016BCFD /* ContactDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC43DA22598F840016BCFD /* ContactDetailsVC.swift */; };
 		6FCC43DD22598F900016BCFD /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC43DC22598F900016BCFD /* UIView.swift */; };
 		6FCC43DF22598FA50016BCFD /* ContactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC43DE22598FA50016BCFD /* ContactModel.swift */; };
+		6FCC43E22259911D0016BCFD /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FCC43E02259911D0016BCFD /* ContactTableViewCell.swift */; };
+		6FCC43E32259911D0016BCFD /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FCC43E12259911D0016BCFD /* ContactTableViewCell.xib */; };
+		6FCC43E5225991F70016BCFD /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 6FCC43E4225991F70016BCFD /* data.json */; };
 		FC50E8FD799C35CE24F86105 /* Pods_exam.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9E4315769554590D5AF747A /* Pods_exam.framework */; };
 /* End PBXBuildFile section */
 
@@ -26,11 +29,13 @@
 		6FCC43C522598E000016BCFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FCC43C822598E000016BCFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FCC43CA22598E000016BCFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6FCC43D222598EE40016BCFD /* data.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		6FCC43D822598F760016BCFD /* ContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsVC.swift; sourceTree = "<group>"; };
 		6FCC43DA22598F840016BCFD /* ContactDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactDetailsVC.swift; sourceTree = "<group>"; };
 		6FCC43DC22598F900016BCFD /* UIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
 		6FCC43DE22598FA50016BCFD /* ContactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactModel.swift; sourceTree = "<group>"; };
+		6FCC43E02259911D0016BCFD /* ContactTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		6FCC43E12259911D0016BCFD /* ContactTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
+		6FCC43E4225991F70016BCFD /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		C9D03E36B4EC6DABF33C16CA /* Pods-exam.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-exam.release.xcconfig"; path = "Target Support Files/Pods-exam/Pods-exam.release.xcconfig"; sourceTree = "<group>"; };
 		C9E4315769554590D5AF747A /* Pods_exam.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_exam.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -102,7 +107,7 @@
 		6FCC43D122598EBF0016BCFD /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				6FCC43D222598EE40016BCFD /* data.json */,
+				6FCC43E4225991F70016BCFD /* data.json */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -119,6 +124,8 @@
 		6FCC43D522598F410016BCFD /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				6FCC43E02259911D0016BCFD /* ContactTableViewCell.swift */,
+				6FCC43E12259911D0016BCFD /* ContactTableViewCell.xib */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -199,8 +206,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCC43E32259911D0016BCFD /* ContactTableViewCell.xib in Resources */,
 				6FCC43C922598E000016BCFD /* LaunchScreen.storyboard in Resources */,
 				6FCC43C622598E000016BCFD /* Assets.xcassets in Resources */,
+				6FCC43E5225991F70016BCFD /* data.json in Resources */,
 				6FCC43C422598DFF0016BCFD /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FCC43E22259911D0016BCFD /* ContactTableViewCell.swift in Sources */,
 				6FCC43DD22598F900016BCFD /* UIView.swift in Sources */,
 				6FCC43DB22598F840016BCFD /* ContactDetailsVC.swift in Sources */,
 				6FCC43DF22598FA50016BCFD /* ContactModel.swift in Sources */,
